@@ -1,5 +1,33 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400|Open+Sans:400,600&display=swap');
 
 body {
 	font-family: 'Open Sans', sans-serif;
+}
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+a {
+	text-decoration: none;
+	color: #4d4d4d;
+}
+
+/*--------------------      HEADER      --------------------*/
+
+#header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav li {
+	display: inline;
+	margin: 28px;
+}
+h1 {
+	font-family: 'Comfortaa', cursive;
+	font-weight: 300;
+}
+#header a:hover {
+	border-bottom: 1px solid #4d4d4d;
 }
