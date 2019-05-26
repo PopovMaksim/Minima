@@ -25,7 +25,9 @@ p {
 a {
 	text-decoration: none;
 }
-
+main, header {
+	text-align: center;
+}
 /*--------------------      NAV      --------------------*/
 
 #navigation {
@@ -48,7 +50,6 @@ h1 {
 /*--------------------      HEADER      --------------------*/
 
 #start {
-	text-align: center;
 	background: url("../image/Layer%2011.png") no-repeat center /cover;
 	height: 650px;
 	display: flex;
@@ -97,7 +98,6 @@ h2 {
 
 #video {
 	margin-top: 180px;
-	text-align: center;
 }
 #video p {
 	max-width: 570px;
@@ -107,9 +107,6 @@ h2 {
 
 /*--------------------      RESENT WORK      --------------------*/
 
-#work {
-	text-align: center;
-}
 .brand_project  {
 	margin: 85px 0;
 	display: grid;  
@@ -144,7 +141,6 @@ h2 {
 #subscribers {
 	background-color: #f5f5f5;
 	padding: 90px;
-	text-align: center;
 }
 #subscribers p {
 	margin: 0;
@@ -169,7 +165,6 @@ h2 {
 /*--------------------      CONTACTS      --------------------*/
 
 #contacts  {
-	text-align: center;
 	margin: 100px 0;
 }
 #contacts li {
