@@ -165,3 +165,24 @@ h2 {
 	background-color: #4d4d4d;
 	color: #fff;
 }
+
+/*--------------------      CONTACTS      --------------------*/
+
+#contacts  {
+	text-align: center;
+	margin: 100px 0;
+}
+#contacts li {
+	display: inline;
+	margin: 30px;
+}
+#contacts a {
+	padding: 15px 17px;
+	border: 1px solid #4d4d4d;
+	
+}
+#contacts a:hover {
+	color: #fff;
+	background-color: #55acee;
+	border: 1px solid #55acee;
+}
