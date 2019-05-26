@@ -9,9 +9,21 @@ body {
 	margin: 0 auto;
 	padding: 0 15px;
 }
+h2, h3, h4, a {
+	color: #4d4d4d; 
+}
+h3, h4 {
+	text-transform: uppercase;
+}
+h3 {
+	font-size: 26px;
+	letter-spacing: 3px;
+}
+p {
+	color: #727272;
+}
 a {
 	text-decoration: none;
-	color: #4d4d4d;
 }
 
 /*--------------------      NAV      --------------------*/
@@ -80,13 +92,6 @@ h2 {
 	text-align: center;
 	margin-top: 100px;
 }
-h4 {
-	color: #4d4d4d; 
-	text-transform: uppercase;
-}
-p {
-	color: #727272;
-}
 
 /*--------------------      VIDEO      --------------------*/
 
@@ -94,14 +99,14 @@ p {
 	margin-top: 180px;
 	text-align: center;
 }
-h3 {
-	text-transform: uppercase;
-	color: #4d4d4d; 
-	font-size: 26px;
-	letter-spacing: 3px;
-}
 #video p {
 	max-width: 570px;
 	margin: 16px auto;
 	margin-bottom: 60px;
+}
+
+/*--------------------      RESENT WORK      --------------------*/
+
+#work {
+	text-align: center;
 }
