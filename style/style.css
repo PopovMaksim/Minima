@@ -110,3 +110,24 @@ h2 {
 #work {
 	text-align: center;
 }
+.brand_project  {
+	margin: 85px 0;
+	display: grid;  
+	grid-template-columns: repeat(4, minmax(200px, 270px));
+	grid-gap: 25px;
+	justify-content: center;
+}
+.project {
+	position: relative;
+}
+.project img {
+	width: 100%;
+}
+.brand_project p {
+	position: absolute;
+	bottom: -11px;
+	width: 100%;
+	background-color: #575757;
+	color: #fff;
+	padding: 15px 0;
+}
