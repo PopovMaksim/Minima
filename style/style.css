@@ -119,15 +119,22 @@ h2 {
 }
 .project {
 	position: relative;
+	overflow: hidden;
 }
 .project img {
 	width: 100%;
 }
 .brand_project p {
 	position: absolute;
-	bottom: -11px;
+	bottom: -40px;
 	width: 100%;
 	background-color: #575757;
 	color: #fff;
 	padding: 15px 0;
+	opacity: 0;
+	transition: 0.2s;
+}
+.project:hover p{
+	opacity: 1;
+	bottom: -11px;
 }
