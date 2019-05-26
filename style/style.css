@@ -87,3 +87,21 @@ h4 {
 p {
 	color: #727272;
 }
+
+/*--------------------      VIDEO      --------------------*/
+
+#video {
+	margin-top: 180px;
+	text-align: center;
+}
+h3 {
+	text-transform: uppercase;
+	color: #4d4d4d; 
+	font-size: 26px;
+	letter-spacing: 3px;
+}
+#video p {
+	max-width: 570px;
+	margin: 16px auto;
+	margin-bottom: 60px;
+}
