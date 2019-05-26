@@ -14,14 +14,14 @@ a {
 	color: #4d4d4d;
 }
 
-/*--------------------      HEADER      --------------------*/
+/*--------------------      NAV      --------------------*/
 
-#header {
+#navigation {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-nav li {
+#navigation li {
 	display: inline;
 	margin: 28px;
 }
@@ -29,11 +29,11 @@ h1 {
 	font-family: 'Comfortaa', cursive;
 	font-weight: 300;
 }
-#header a:hover {
+#navigation a:hover {
 	border-bottom: 1px solid #4d4d4d;
 }
 
-/*--------------------      START      --------------------*/
+/*--------------------      HEADER      --------------------*/
 
 #start {
 	text-align: center;
