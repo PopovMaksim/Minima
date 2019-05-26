@@ -186,3 +186,35 @@ h2 {
 	background-color: #55acee;
 	border: 1px solid #55acee;
 }
+
+
+/*--------------------      FOOTER      --------------------*/
+
+#footer {
+	display: flex;
+	justify-content: space-around;
+	line-height: 28px;
+	background-color: #3b3b3b;
+}
+h5 {
+	font-size: 16px;
+	color: #fff;
+}
+#footer p, #footer a {
+	color: #8c8c8c;
+}
+#footer section {
+	max-width: 310px;
+}
+#footer ul {
+	padding: 0;
+}
+#footer li {
+	display: block;
+}
+.line {
+	text-decoration: underline;
+}
+#footer a:hover {
+	color: #fff;
+}
