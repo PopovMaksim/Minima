@@ -80,3 +80,10 @@ h2 {
 	text-align: center;
 	margin-top: 100px;
 }
+h4 {
+	color: #4d4d4d; 
+	text-transform: uppercase;
+}
+p {
+	color: #727272;
+}
